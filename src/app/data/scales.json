@@ -1,0 +1,12 @@
+{
+    "scales":[
+        {
+            "tone":"C",
+            "notes":["C", "D", "E", "F", "G", "A", "B"]
+        },
+        {
+            "tone":"G",
+            "notes":["C", "D", "E", "fa♯", "sol", "la", "si"]
+        }
+    ]
+}
