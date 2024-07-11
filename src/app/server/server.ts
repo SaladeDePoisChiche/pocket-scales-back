@@ -11,7 +11,7 @@ function createServer(): Application {
   
   app.use('/', router);
   app.get('/', (req: Request, res: Response, next: NextFunction) => {
-    res.send('Hello, server is running! And deployment works v2!');
+    res.send('Hello, server is running! And deployment works v3!');
   });
 
   return app;
