@@ -38,7 +38,4 @@ jobs:
         id: deploy
         run: |
           aws deploy create-deployment \
-          --application-name pocket-scales-back \ 
-          --deployment-group-name pocket-scales-back-staging \
-          --deployment-config-name CodeDeployDefault.AllAtOnce \
-          --github-location repository=${{ github.repository }},commitId=${{ github.sha }}
+          --application-name pocket-scales-back
