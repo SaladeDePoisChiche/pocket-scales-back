@@ -38,4 +38,6 @@ jobs:
         id: deploy
         run: |
           aws deploy create-deployment \
-          --application-name pocket-scales-back
+          --application-name pocket-scales-back \
+          --deployment-group-name pocket-scales-back-staging \
+          
